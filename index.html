@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velkar Polychem | Engineering Plastics & Polymer Materials</title>
+<meta name="description" content="Velkar Polychem - Coimbatore supplier of engineering plastics, polymer raw materials and polycarbonate sheets for manufacturers across South India.">
+<style>
+:root{--navy:#071827;--blue:#0b5cff;--cyan:#16c7d9;--ink:#10202f;--muted:#607080;--light:#f3f7fa;--white:#fff;--line:#dce6ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(7,24,39,.96);backdrop-filter:blur(10px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{font-weight:900;letter-spacing:.08em;font-size:20px}.logo span{color:var(--cyan)}
+nav{display:flex;gap:24px;font-size:14px}nav a{opacity:.86}nav a:hover{opacity:1;color:#62e2ec}
+.navcta{display:flex;gap:10px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:9px;font-weight:800;border:1px solid transparent;cursor:pointer}.btn-primary{background:var(--blue);color:#fff}.btn-outline{border-color:#7f96aa;color:#fff}.btn-light{background:#fff;color:var(--navy)}
+.hero{min-height:680px;background:radial-gradient(circle at 80% 25%,#174c75 0,#0a2236 38%,#061522 100%);color:#fff;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,15,25,.88),rgba(3,15,25,.35)),radial-gradient(circle at 78% 65%,rgba(22,199,217,.18),transparent 30%)}
+.hero .container{position:relative;z-index:2}.eyebrow{color:#62e2ec;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:13px}.hero h1{font-size:clamp(46px,7vw,82px);line-height:.98;max-width:850px;margin:16px 0 24px;letter-spacing:-.04em}.hero p{font-size:20px;max-width:690px;color:#d3e2ed}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:60px}.stat{border:1px solid rgba(255,255,255,.14);padding:17px;border-radius:12px;background:rgba(255,255,255,.05)}.stat strong{display:block;font-size:18px}.stat small{color:#aebfcb}
+section{padding:88px 0}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:38px}.section-head h2{font-size:42px;line-height:1.05;margin:8px 0}.section-head p{max-width:560px;color:var(--muted)}
+.about{background:var(--light)}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.panel{background:var(--navy);color:#fff;border-radius:24px;padding:38px;min-height:340px}.panel h3{font-size:30px}.ticks{display:grid;gap:12px;margin-top:25px}.ticks div:before{content:"✓";color:var(--cyan);font-weight:900;margin-right:10px}
+.products{background:#fff}.search{display:flex;gap:10px;margin-bottom:25px}.search input{flex:1;padding:15px 17px;border:1px solid var(--line);border-radius:10px;font-size:16px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:16px;padding:23px;background:#fff;transition:.2s;display:flex;flex-direction:column}.card:hover{transform:translateY(-4px);box-shadow:0 12px 35px rgba(16,32,47,.1)}.card .icon{height:62px;width:62px;border-radius:14px;background:#eaf3ff;color:#0b5cff;display:grid;place-items:center;font-weight:900;font-size:22px;margin-bottom:20px}.card h3{margin:0 0 8px}.card p{color:var(--muted);font-size:14px;flex:1}.card a{color:#0b5cff;font-weight:800;font-size:14px}
+.band{background:var(--navy);color:#fff}.industries{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.industry{padding:25px;border:1px solid rgba(255,255,255,.13);border-radius:15px;background:rgba(255,255,255,.04)}.industry h3{margin-top:0}.industry p{color:#afc0cc;font-size:14px}
+.brands{display:flex;gap:12px;flex-wrap:wrap}.brand{padding:15px 22px;border:1px solid var(--line);border-radius:100px;font-weight:800;background:#fff}
+.rfq{background:linear-gradient(135deg,#eef7ff,#f7fbfd)}.rfq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px}.form{background:#fff;border:1px solid var(--line);padding:30px;border-radius:20px;box-shadow:0 10px 35px rgba(0,0,0,.05)}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.form input,.form textarea,.form select{width:100%;padding:13px;border:1px solid var(--line);border-radius:9px;font:inherit}.form textarea{min-height:110px;resize:vertical}.full{grid-column:1/-1}
+.contact{background:#061522;color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.contact p{color:#b7c7d2}.contact-item{padding:17px 0;border-bottom:1px solid rgba(255,255,255,.12)}.contact-item strong{display:block;color:#fff}.contact-item a{color:#62e2ec}
+footer{background:#030d15;color:#91a4b2;padding:28px 0;font-size:13px}.footerrow{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:900px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr)}.industries{grid-template-columns:repeat(2,1fr)}.about-grid,.rfq-grid,.contact-grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){section{padding:65px 0}.hero{min-height:650px}.hero h1{font-size:50px}.grid,.industries,.stats,.formgrid{grid-template-columns:1fr}.section-head{display:block}.navcta .btn-outline{display:none}.footerrow{display:block}.footerrow div+div{margin-top:10px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="logo" href="#home">VELKAR <span>POLYCHEM</span></a>
+<nav><a href="#about">About</a><a href="#products">Products</a><a href="#industries">Industries</a><a href="#brands">Brands</a><a href="#quote">Get Quote</a><a href="#contact">Contact</a></nav>
+<div class="navcta"><a class="btn btn-outline" href="tel:+918048037968">Call</a><a class="btn btn-primary" href="#quote">Get a Quote</a></div>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="container">
+<div class="eyebrow">Established 2012 • Coimbatore • B2B Polymer Supply</div>
+<h1>Engineering polymers for industry.</h1>
+<p>Reliable sourcing of engineering plastics, polymer raw materials and industrial plastic solutions for manufacturers across South India.</p>
+<div class="actions"><a class="btn btn-primary" href="#products">Explore Products</a><a class="btn btn-outline" href="#quote">Request a Quote</a></div>
+<div class="stats"><div class="stat"><strong>2012</strong><small>Established</small></div><div class="stat"><strong>B2B</strong><small>Industrial Supplier</small></div><div class="stat"><strong>South India</strong><small>Supply Network</small></div><div class="stat"><strong>Polymer</strong><small>Material Solutions</small></div></div>
+</div></section>
+
+<section class="about" id="about"><div class="container about-grid">
+<div><div class="eyebrow">About Velkar Polychem</div><h2>Materials that move manufacturing forward.</h2><p>Velkar Polychem, established in 2012 and based in Coimbatore, Tamil Nadu, supplies engineering plastics, polymer raw materials and industrial plastic products to manufacturers, moulders, processors and industrial buyers.</p><p>Our focus is dependable sourcing, responsive B2B support and helping customers identify suitable materials for their applications.</p><div class="ticks"><div>Wide range of engineering polymers</div><div>Application-focused material sourcing</div><div>B2B customer support</div><div>Coimbatore and South India supply</div></div></div>
+<div class="panel"><div class="eyebrow">Our focus</div><h3>Engineering plastics. Industrial applications. Direct enquiries.</h3><p>Explore the catalogue, identify the material you need and send your requirement directly to our team.</p><a class="btn btn-light" href="#quote">Start an Enquiry</a></div>
+</div></section>
+
+<section class="products" id="products"><div class="container">
+<div class="section-head"><div><div class="eyebrow">Product Catalogue</div><h2>Find the right polymer.</h2></div><p>Browse key material categories. Availability, grades and specifications should be confirmed with Velkar Polychem before purchase.</p></div>
+<div class="search"><input id="search" placeholder="Search polymer, grade, brand or application..." oninput="filterProducts()"></div>
+<div class="grid" id="productGrid">
+<div class="card product" data-key="abs acrylonitrile butadiene styrene injection automotive electrical"><div class="icon">ABS</div><h3>ABS</h3><p>ABS raw materials for moulding, automotive, electrical and consumer applications.</p><a href="#quote">Request ABS Quote →</a></div>
+<div class="card product" data-key="pc polycarbonate granules sheets electrical automotive electronics"><div class="icon">PC</div><h3>Polycarbonate</h3><p>PC granules and polycarbonate sheet categories for industrial and engineering applications.</p><a href="#quote">Request PC Quote →</a></div>
+<div class="card product" data-key="nylon nylon 6 nylon 66 pa gf glass filled automotive gears"><div class="icon">PA</div><h3>Nylon 6 & Nylon 66</h3><p>Engineering nylon materials, including reinforced grades where available.</p><a href="#quote">Request Nylon Quote →</a></div>
+<div class="card product" data-key="pom acetal delrin celcon gears bushes precision"><div class="icon">POM</div><h3>POM / Acetal</h3><p>Acetal materials for gears, bushes, precision and mechanical components.</p><a href="#quote">Request POM Quote →</a></div>
+<div class="card product" data-key="tpu tpe wanhua flexible footwear automotive cable"><div class="icon">TPU</div><h3>TPU / TPE</h3><p>Flexible polymer categories for footwear, automotive and industrial applications.</p><a href="#quote">Request TPU Quote →</a></div>
+<div class="card product" data-key="gpps hips polystyrene packaging general moulding"><div class="icon">PS</div><h3>GPPS / HIPS</h3><p>General-purpose and high-impact polystyrene materials subject to availability.</p><a href="#quote">Request PS Quote →</a></div>
+<div class="card product" data-key="pbt pps pc abs pmma san engineering plastics"><div class="icon">EP</div><h3>Other Engineering Plastics</h3><p>PBT, PPS, PC/ABS, PMMA, SAN and other specialty materials subject to availability.</p><a href="#quote">Enquire →</a></div>
+<div class="card product" data-key="polycarbonate sheet diamond embossed transparent compact multiwall corrugated lazellite"><div class="icon">SHEET</div><h3>Polycarbonate Sheets</h3><p>Plain, transparent, diamond, embossed and other sheet formats subject to availability.</p><a href="#quote">Request Sheet Quote →</a></div>
+<div class="card product" data-key="pp pe hdpe ldpe lldpe eva commodity plastics"><div class="icon">PP</div><h3>Commodity Plastics</h3><p>PP, PE and other general-purpose polymer categories based on current sourcing.</p><a href="#quote">Check Availability →</a></div>
+<div class="card product" data-key="lazerlite deckwood deckowall claado glanza roofing"><div class="icon">LZ</div><h3>Lazerlite Products</h3><p>Selected Lazerlite polycarbonate and building-product categories.</p><a href="#quote">Enquire →</a></div>
+</div>
+</div></section>
+
+<section class="band" id="industries"><div class="container">
+<div class="section-head"><div><div class="eyebrow">Industries We Serve</div><h2>Built around industrial demand.</h2></div><p>Materials can be matched to the application, processing method and required grade after discussing your requirement.</p></div>
+<div class="industries">
+<div class="industry"><h3>Automotive</h3><p>Engineering polymers for moulded automotive components.</p></div>
+<div class="industry"><h3>Electrical & Electronics</h3><p>Materials for housings, components and industrial electrical applications.</p></div>
+<div class="industry"><h3>Injection Moulding</h3><p>Polymer materials for injection moulding operations.</p></div>
+<div class="industry"><h3>Engineering Components</h3><p>Materials for gears, bushes and precision components.</p></div>
+<div class="industry"><h3>Appliances</h3><p>Plastic materials for consumer and appliance components.</p></div>
+<div class="industry"><h3>Extrusion</h3><p>Polymer categories suitable for extrusion applications.</p></div>
+<div class="industry"><h3>Packaging</h3><p>General-purpose materials for packaging applications.</p></div>
+<div class="industry"><h3>Construction</h3><p>Polycarbonate sheets and related industrial products.</p></div>
+</div></div></section>
+
+<section id="brands"><div class="container"><div class="section-head"><div><div class="eyebrow">Brands & Materials</div><h2>Material sources we work with.</h2></div><p>Brand availability varies by product and current sourcing. Confirm the required grade with our team.</p></div><div class="brands"><div class="brand">GUJLON</div><div class="brand">WANHUA</div><div class="brand">CELCON</div><div class="brand">AMCEL</div><div class="brand">Other verified brands</div></div></div></section>
+
+<section class="rfq" id="quote"><div class="container rfq-grid">
+<div><div class="eyebrow">Request For Quotation</div><h2>Tell us what you need.</h2><p>Share the material, grade, quantity and application. Our team can respond with current availability and commercial details.</p><p><strong>Tip:</strong> If you have a datasheet, specification or reference image, attach it when contacting us.</p></div>
+<form class="form" onsubmit="submitRFQ(event)"><div class="formgrid">
+<input required placeholder="Name"><input required placeholder="Company Name">
+<input required type="tel" placeholder="Mobile Number"><input type="email" placeholder="Email">
+<input placeholder="City"><input placeholder="Product Required">
+<input placeholder="Brand / Grade"><input placeholder="Quantity Required">
+<input class="full" placeholder="Application"><textarea class="full" placeholder="Message / specification"></textarea>
+<button class="btn btn-primary full" type="submit">Submit RFQ</button>
+</div></form>
+</div></section>
+
+<section class="contact" id="contact"><div class="container contact-grid">
+<div><div class="eyebrow">Contact Velkar Polychem</div><h2>Let's discuss your material requirement.</h2><p>For current availability, grades, specifications and pricing, contact our team directly.</p></div>
+<div>
+<div class="contact-item"><strong>Address</strong>7A1, 274/1, S.R. Complex, Sanganoor Main Road, Ganapathy, Coimbatore – 641006, Tamil Nadu, India</div>
+<div class="contact-item"><strong>Phone</strong><a href="tel:+918048037968">+91 80480 37968</a></div>
+<div class="contact-item"><strong>Email</strong><a href="mailto:velkarpolymers@gmail.com">velkarpolymers@gmail.com</a></div>
+<div class="actions"><a class="btn btn-primary" href="tel:+918048037968">Call Now</a><a class="btn btn-outline" href="mailto:velkarpolymers@gmail.com">Email Us</a></div>
+</div></div></section>
+</main>
+
+
+<footer><div class="container footerrow"><div>© 2026 Velkar Polychem. All rights reserved.</div><div>Engineering Plastics • Polymer Materials • Polycarbonate Sheets</div></div></footer>
+
+<script>
+function filterProducts(){const q=document.getElementById('search').value.toLowerCase();document.querySelectorAll('.product').forEach(c=>c.style.display=c.dataset.key.includes(q)?'flex':'none')}
+function submitRFQ(e){e.preventDefault();const f=e.target;const vals=[...f.querySelectorAll('input,textarea')].map(x=>x.value);const subject=encodeURIComponent('Product Enquiry - '+(vals[5]||'Velkar Polychem'));const body=encodeURIComponent('Hello Velkar Polychem,\n\nI would like to enquire about your plastic materials.\n\nName: '+vals[0]+'\nCompany: '+vals[1]+'\nMobile: '+vals[2]+'\nEmail: '+vals[3]+'\nCity: '+vals[4]+'\nProduct: '+vals[5]+'\nBrand/Grade: '+vals[6]+'\nQuantity: '+vals[7]+'\nApplication: '+vals[8]+'\nMessage: '+vals[9]+'\n\nRegards,\n'+vals[0]);window.location.href='mailto:velkarpolymers@gmail.com?subject='+subject+'&body='+body}
+</script>
+</body></html>
